@@ -3,6 +3,10 @@ directories:
   buildResources: build
 appId: com.smarttrak.dashboard
 productName: SmartTrak Dashboard
+artifactName: Smarttrak Dashboard.exe
+extraFiles:
+  - filter:
+      - .env
 win:
   target: portable
   icon: icon.ico

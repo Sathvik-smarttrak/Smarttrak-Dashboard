@@ -1,6 +1,6 @@
 {
   "name": "smarttrakdashboard",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Executive Dashboard app",
   "main": "index.js",
   "scripts": {
@@ -11,15 +11,22 @@
   "build": {
     "appId": "com.smarttrak.dashboard",
     "productName": "SmartTrak Dashboard",
+    "artifactName": "Smarttrak Dashboard.exe",
+    "extraFiles": [
+    ".env"
+  ],
     "win": {
       "target": "portable",
       "icon": "icon.ico"
     }
   },
-  "author": "",
+  "author": "Sathvik Kunuru",
   "license": "ISC",
   "devDependencies": {
     "electron": "^37.2.6",
     "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
   }
 }
