@@ -85,6 +85,3 @@ Smarttrak-Dashboard/
 
 ISC License
 © 2025 Smarttrak Ai
-
-I'll adjust it as needed.
-```
