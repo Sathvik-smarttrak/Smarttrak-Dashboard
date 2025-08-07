@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.smarttrak.dashboard
+productName: SmartTrak Dashboard
+win:
+  target: portable
+  icon: icon.ico
+files: []
+electronVersion: 37.2.6

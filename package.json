@@ -1,0 +1,25 @@
+{
+  "name": "smarttrakdashboard",
+  "version": "1.0.0",
+  "description": "Executive Dashboard app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.smarttrak.dashboard",
+    "productName": "SmartTrak Dashboard",
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12"
+  }
+}
