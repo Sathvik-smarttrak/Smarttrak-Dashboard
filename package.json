@@ -20,7 +20,7 @@
       "icon": "icon.ico"
     }
   },
-  "author": "Sathvik Kunuru",
+  "author": "Smarttrak Ai",
   "license": "ISC",
   "devDependencies": {
     "electron": "^21.4.4",
