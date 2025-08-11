@@ -23,7 +23,7 @@
   "author": "Sathvik Kunuru",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^37.2.6",
+    "electron": "^21.4.4",
     "electron-builder": "^26.0.12"
   },
   "dependencies": {

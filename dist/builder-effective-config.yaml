@@ -11,4 +11,4 @@ win:
   target: portable
   icon: icon.ico
 files: []
-electronVersion: 37.2.6
+electronVersion: 21.4.4
